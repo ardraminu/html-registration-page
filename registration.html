@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>regi</title>
+</head>
+
+<body>
+<div class ="main">
+    <div class="register">
+        <form id="register" method="post">
+            <h2>Registration</h2>
+            <hr>
+                <input type="radio" id="personal" name="purpose" value="Personal">
+                <span id="personal">Personal</span>
+                     &nbsp &nbsp &nbsp
+
+                <input type="radio" id="company" name="purpose" value="company">
+                <span id="company">Company</span>
+                <hr>
+
+                <br>
+               <div class="input-icons">
+                   <div class ="container-input">
+                       <i class ="fa fa-envelope icon"></i>
+                       <input type="email" name="email" id="email" placeholder="Email">
+                    </div>
+                       <br>
+                    <div class ="container-input">
+                       <i class="fa fa-user icon"></i>
+                       <input type="text" name="name" id="name" placeholder="Name"></div>
+                       <br>
+
+                   <div class ="container-input">
+                       <i class="fa fa-unlock-alt icon"></i>
+                       <input type="password" name="pwd" id="pwd" placeholder="Password">
+                   </div>
+                   <br>
+               </div>
+
+                  <hr>
+
+                <div>
+                  &nbsp &nbsp &nbsp
+                  <input type="radio" id="male" name="gender" value="Male">
+                    <span id="male">Male</span>
+                   &nbsp &nbsp &nbsp
+
+                   <input type="radio" id="female" name="gender" value="female">
+                   <span id="female">Female</span>
+            </div>
+
+            <hr>
+            <p>By clicking Register, you agree on our <a href="">privacy policy.</a></p>
+
+             <input type="submit" name="submit" id="submit"  value="submit" >
+
+        </form>
+
+
+    </div><!--end register-->
+</div> <!--end main-->
+
+</body>
+</html>

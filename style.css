@@ -1,0 +1,93 @@
+*{
+  margin:1;
+  padding:1;
+}
+body{
+      background:url(https://cdn.shopify.com/s/files/1/0062/4309/0499/products/oc-9-balletwhite_2000x.png?v=1587131301);
+      background-size:280%;
+      background-position:-400px 0px;
+}
+
+div.main{
+         width:300px;
+         margin:50px auto 10px auto;
+}
+
+h2{
+   text-align:center;
+   padding:8px;
+
+}
+div.register{
+          width:100%;
+          font-size:18px;
+          border-radius:15px;
+          border:1px solid rgba(255,255,255,0.3);
+          box-shadow:2px 2px 15px rgba(0,0,0,0.3);
+          color:#666;
+}
+form#register{
+               margin:30px;
+}
+input#name{
+           width:200px;
+           border:none;
+           outline:0px;
+           padding:7px;
+           background-color:#fff;
+           box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input#email{
+             width:200px;
+             border:none;
+             padding:7px;
+             background-color:#fff;
+             box-shadow:inset 1px 1px 5px rgba(0,0,0,0.3);
+             }
+
+input#pwd{
+           width:200px;
+           border:none;
+           outline:0px;
+           padding:7px;
+           background_color:#fff;
+           box-shadow:inset 1px 1px 5px rgba(0,0,0,0.3);
+           }
+
+input#submit{
+              width:230px;
+              padding:7px;
+              font-size:15px;
+              font-weight:600;
+              font-family:sans serif;
+              border:none;
+              border-radius:12px;
+              background-color:dodgerBlue;
+              color:#fff;
+              cursor:pointer;
+              border:none;
+
+}
+
+p{
+  font-size:15px;
+  text-align:center;
+
+}
+
+*{box-sizing:border-box;}
+
+.container-input{
+            display:flex;
+            width :100%;
+            margin-bottom:16px;
+
+}
+.icon{
+     width:50px;
+     padding:7px;
+     background-color:dodgerBlue;
+     color:#666;
+     text-align:center;
+     }
+
